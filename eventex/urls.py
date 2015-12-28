@@ -15,7 +15,8 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
-from core.views import home
+
+from eventex.core.views import home
 
 urlpatterns = [
     url(r'^$', home, name='home'),
