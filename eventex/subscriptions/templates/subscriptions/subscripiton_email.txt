@@ -1,0 +1,18 @@
+Olá! tudo bem?
+
+Muito obrigado por se inscriver no Eventex.
+
+Estes foram os dados que você nos forneceu na sua inscrição:
+
+Nome: {{ name }}
+CPF: {{ cpf }}
+Email: {{ email }}
+Telefone: {{ phone }}
+
+Em até 48 horas úteis, a nossa equipe entrará em contado com você
+para concluirmos a sua matricúla.
+
+Atenciosamente,
+
+--
+Morena
