@@ -2,6 +2,8 @@
 
 System of Events create in the course Welcome to the Django.
 
+[![Build Status](https://travis-ci.org/felipefrizzo/wttd.svg?branch=master)](https://travis-ci.org/felipefrizzo/wttd)
+
 ## How develop ?
 
 1. Clone the repository.
