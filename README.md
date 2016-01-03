@@ -29,9 +29,13 @@ System of Events create in the course Welcome to the Django.
 
     ```console
     pip install -r requirements.txt
-    cd contrib/env-sample .env
     ```
 5. configure the instance with .env
+
+    ```console
+    cd contrib/env-sample .env
+    ```
+
 6. Run the tests.
 
     ```console
