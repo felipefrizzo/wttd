@@ -8,37 +8,37 @@ System of Events create in the course Welcome to the Django.
 
 1. Clone the repository.
 
-    ```console
+    ```shell
     git clone https://github.com/felipefrizzo/wttd.git wttd
     cd wttd
     ```
 2. Create a virtualenv with Python 3.5.0
 
-    ```console
+    ```shell
     pyenv install 3.5.0
     ```
 
 3. Activate your virtualenv.
 
-    ```console
+    ```shell
     pyenv virtualenv 3.5.0 wttd
-    pyenv local wttd
     ```
+    pyenv local wttd
 
 4. Install the dependencies.
 
-    ```console
+    ```shell
     pip install -r requirements.txt
     ```
 5. configure the instance with .env
 
-    ```console
+    ```shell
     cd contrib/env-sample .env
     ```
 
 6. Run the tests.
 
-    ```console
+    ```shell
     python manage.py test
     ```
 
@@ -51,7 +51,7 @@ System of Events create in the course Welcome to the Django.
 5. Configure the email service.
 6. Send the code for the heroku.
 
-    ```console
+    ```shell
     heroku create MyInstance
     heroku config:push
     heroku config:set SECRET_KEY=`python contrib/secret_gen.py`
