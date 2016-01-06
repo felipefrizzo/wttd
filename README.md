@@ -22,8 +22,8 @@ System of Events create in the course Welcome to the Django.
 
     ```shell
     pyenv virtualenv 3.5.0 wttd
-    ```
     pyenv local wttd
+    ```
 
 4. Install the dependencies.
 
