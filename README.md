@@ -2,7 +2,7 @@
 
 System of Events create in the course Welcome to the Django.
 
-[![Build Status](https://travis-ci.org/felipefrizzo/wttd.svg?branch=master)](https://travis-ci.org/felipefrizzo/wttd)
+[![Build Status](https://travis-ci.org/felipefrizzo/wttd.svg?branch=master)](https://travis-ci.org/felipefrizzo/wttd) [![Code Health](https://landscape.io/github/felipefrizzo/wttd/master/landscape.svg?style=flat)](https://landscape.io/github/felipefrizzo/wttd/master)
 
 ## How to develop ?
 
