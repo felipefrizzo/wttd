@@ -62,7 +62,11 @@
                 {% for spearker in speakers %}
                     <div class="desktop-4">
                         <img src="{{ spearker.photo }}"/>
-                        <h4>{{ spearker.name }}</h4>
+                        <h4>
+                            <a href="{{ spearker.get_absolute_url }}">
+                                {{ spearker.name }}
+                            </a>
+                        </h4>
                     </div>
                 {% endfor %}
             </div>

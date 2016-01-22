@@ -3,6 +3,8 @@ from django.shortcuts import resolve_url as r_url
 
 
 class HomeTest(TestCase):
+    fixtures = ['keynote.json']
+
     def setUp(self):
         self.response = self.client.get(r_url('home'))
 
@@ -20,10 +22,13 @@ class HomeTest(TestCase):
 
     def test_speakers(self):
         """Must show keynotes speakers"""
-        contents = ['Grace Hopper',
-                    'http://hbn.link/hopper-pic',
-                    'Alan Turing',
-                    'http://hbn.link/turing-pic'
+        contents = [
+            'href="{}"'.format(r_url('speaker_detail', slug='grace-hopper')),
+            'Grace Hopper',
+            'http://hbn.link/hopper-pic',
+            'href="{}"'.format(r_url('speaker_detail', slug='alan-turing')),
+            'Alan Turing',
+            'http://hbn.link/turing-pic'
         ]
 
         for content in contents:
