@@ -375,3 +375,15 @@ section header h2 {
     float: left;
     padding-right: 15px;
 }
+
+.talks h3 {
+    padding: 0;
+    min-height: 0;
+}
+
+.talks h4 {
+    padding: 0;
+    font-size: 1em;
+    min-height: 1em;
+    margin: 0;
+}
