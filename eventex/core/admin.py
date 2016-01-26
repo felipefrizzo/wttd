@@ -34,6 +34,13 @@ class SpeakerAdmin(admin.ModelAdmin):
     photo_img.allow_tags = True
     photo_img.short_description = 'foto'
 
+
+class TalkAdmin(admin.ModelAdmin):
+    def get_queryset(self, request):
+        qs = super().get_queryset(request)
+        return qs.filter(course=None)
+
+
 admin.site.register(Speaker, SpeakerAdmin)
-admin.site.register(Talk)
+admin.site.register(Talk, TalkAdmin)
 admin.site.register(Course)
