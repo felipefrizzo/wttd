@@ -2,7 +2,7 @@
 
 System of Events create in the course Welcome to the Django.
 
-[![wercker status](https://app.wercker.com/status/b7cfb2f292a6e127242e003a505ac4b1/m "wercker status")](https://app.wercker.com/project/bykey/b7cfb2f292a6e127242e003a505ac4b1)[![Build Status](https://travis-ci.org/felipefrizzo/wttd.svg?branch=master)](https://travis-ci.org/felipefrizzo/wttd) [![Code Health](https://landscape.io/github/felipefrizzo/wttd/master/landscape.svg?style=flat)](https://landscape.io/github/felipefrizzo/wttd/master)
+[![wercker status](https://app.wercker.com/status/b7cfb2f292a6e127242e003a505ac4b1/m "wercker status")](https://app.wercker.com/project/bykey/b7cfb2f292a6e127242e003a505ac4b1)  [![Build Status](https://travis-ci.org/felipefrizzo/wttd.svg?branch=master)](https://travis-ci.org/felipefrizzo/wttd) [![Code Health](https://landscape.io/github/felipefrizzo/wttd/master/landscape.svg?style=flat)](https://landscape.io/github/felipefrizzo/wttd/master)
 
 ## How to develop ?
 
