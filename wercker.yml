@@ -4,9 +4,9 @@ services:
 
 build:
   steps:
-    - virtualenv:
-        name: wttd virtual env
-        install_wheel: false
+#    - virtualenv:
+#        name: wttd virtual env
+#        install_wheel: false
     - pip-install:
         requeriments_file: "requeriments.txt"
     - script:
