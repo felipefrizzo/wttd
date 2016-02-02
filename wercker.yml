@@ -18,7 +18,3 @@ deploy:
             key: $HEROKU_KEY
             user: $HEROKU_USER
             app-name: $HEROKU_APP_NAME
-        - script:
-            name: Update database
-            code: |
-                heroku run: python manage.py migrate
