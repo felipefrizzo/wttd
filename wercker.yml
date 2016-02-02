@@ -1,0 +1,27 @@
+box: python:3.5
+services:
+    - postgres
+
+build:
+  steps:
+    - virtualenv:
+        name: wttd virtual env
+        install_wheel: false
+    - pip-install:
+        requeriments_file: "requeriments.txt"
+    - script:
+        name: Run Test
+        code: |
+            python manage.py test
+
+deploy:
+    steps:
+        - heroku-deploy:
+            instalar-toolbelt: true
+            key: $HEROKU_KEY
+            user: $HEROKU_USER
+            app-name: $HEROKU_APP_NAME
+        - script:
+            name: Update database
+            code: |
+                heroku run: python manage.py migrate
